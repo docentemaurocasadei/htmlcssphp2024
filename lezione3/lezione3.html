@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezione 3</title>
+    <style>
+        /* SHIFT + ALTGR + [ */
+        h3{
+            background-color: aqua;
+            color: chocolate;
+        }
+        span{
+            color: greenyellow;
+        }
+    </style>
+    <link rel="stylesheet" href="lezione3.css">
+</head>
+<body>
+    <form action="contatti.php" name="contatto">
+        <div>
+            <label for="nome-cognome">Nome e Cognome:</label>
+            <input type="text" name="nome-cognome" id="nome-cognome">
+        </div>
+        <div>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono" id="telefono">
+        </div>
+        <div>
+            <h3>sport preferito:</h3>
+            <label for="calcio">Calcio</label>
+            <input type="checkbox" name="calcio" id="calcio">
+            <label for="pallavolo">Pallavolo</label>
+            <input type="checkbox" name="pallavolo" id="pallavolo">
+            <label for="tennis">Tennis</label>
+            <input type="checkbox" name="tennis" id="tennis">
+        </div>
+        <div>
+            <p>Accetti il trattamento dei dati personali ...</p>
+            <input type="radio" name="privacy" id="privacy-si">
+            <label for="privacy-si">Acconsento</label>
+            <input type="radio" name="privacy" id="privacy-no">
+            <label for="privacy-no">Non Acconsento</label>
+        </div>
+        <input type="url" name="" id="">
+        <input type="submit" value="Invia i dati">
+    </form>
+    <!-- questo è un commento -->
+     <!-- questo è un commento -->
+    <h2 style="color:green">il CSS</h2>
+    <p style="background-color: aquamarine; color: blueviolet;">3 modalità di inclusione:</p>
+    <ul>
+        <li>in linea con attributo style=</li>
+        <li>interno con elemento style dentro head</li>
+        <li>esterno con elemento link e file .css</li>
+    </ul>
+    <p>questo è un altro p</p>
+    <h3>questo è un titolo h3</h3>
+    <span style="color: aqua;">Proviamo gli stili in cascata</span>
+    <h3 class="img-media">unità di misura</h3>
+    <div style="width: 75%;background-color: lightgreen;">
+        75%
+        <div style="width: 50%;background-color: cadetblue;">
+            50%
+        </div>
+    </div>
+    <img src="immagine1.jpg" alt="" id="immagine1" class="img-piccola">
+    <img src="immagine1.jpg" alt="" id="immagine2" class="img-media">
+    <img src="immagine1.jpg" alt="" id="immagine3" class="img-piccola">
+</body>
+</html>

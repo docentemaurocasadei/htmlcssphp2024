@@ -1,0 +1,27 @@
+input{
+    background-color: yellow;
+}
+span{
+    color: cornflowerblue;
+    font-size: 2rem;
+}
+/* input[type='submit']{
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 8px;
+} */
+ img {
+    width: 100px;
+ }
+ /* class */
+ .img-piccola{
+    width: 125px;
+ }
+ .img-media{
+    width: 175px;
+ }
+ /* id */
+ #immagine1{
+    width: 205px;
+ }
