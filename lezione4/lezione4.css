@@ -4,3 +4,49 @@ article {
 .color-black{
     color: black;
 }
+a{
+    color: red; /* !important;*/
+    text-decoration: underline;
+}
+article > a{
+    /* spazio discendenti*/
+    /* > figli diretti*/
+    color: green;
+}
+#blog{
+    color: chartreuse;
+}
+.secondo{
+    background-color: brown;
+}
+p.secondo{
+    background-color: lightgreen;
+}
+/*
+    !important (+ imp. id)
+    id #            (1,0,0)
+    class .         (0,1,0)
+    element (tag)   (0,0,1)
+*/
+nav > ul > li{
+/* nav ul li{ */
+/* nav li{ */
+    list-style-type: none;
+    margin-right: 10px;
+    border: 1px solid darkblue; 
+    border-radius: 3px;
+    padding: 5px;
+}
+nav ul{
+   display: flex; /*funziona sui figli*/
+   flex-direction: row;
+}
+
+li + li {
+    /* ~ ALT+126 fratelli successori */
+    /* + fratelli adiacenti */
+    /* border: 1px solid black; abbreviata */
+    /* border-width: 1px; /* estesa */
+    /* border-color: black; */
+    /* border-style: solid; */ 
+}
