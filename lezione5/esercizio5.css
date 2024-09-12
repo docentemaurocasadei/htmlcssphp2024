@@ -1,0 +1,9 @@
+.rosso_barrato{
+    color: red;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.verde_grande{
+    color: green;
+    font-size: 30px;
+}

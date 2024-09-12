@@ -22,6 +22,9 @@ article > a{
 p.secondo{
     background-color: lightgreen;
 }
+a.secondo{
+    
+}
 /*
     !important (+ imp. id)
     id #            (1,0,0)
