@@ -1,0 +1,22 @@
+.verde {
+   background-color: green; 
+}
+.rosso{
+    background-color: red;
+}
+/* .verde1 {
+    background-color: #d1e7dd;
+    border-color: #a3cfbb;
+    border-radius: 3px;
+    
+} */
+ .media{
+    /*
+    bordo intorno               border
+    staccata dai pulsanti       margin
+    colore carattere rosa       color
+    */
+    border: 1px solid black;
+    margin: 20px 10px 20px 10px;
+    color: pink;
+ }
